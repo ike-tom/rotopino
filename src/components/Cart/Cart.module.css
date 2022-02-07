@@ -1,0 +1,62 @@
+.cart__wrapper {
+  width: 265px;
+  min-height: 394px;
+  margin: 0 auto;
+}
+
+.cartHeader__wrapper {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.products__wrapper {
+  height: 60px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.noProduct__description {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.productsHeader__wrapper {
+  height: 35px;
+}
+
+.productsHeader {
+  padding: 0.5rem 0 0 0.4rem;
+  font-weight: 700;
+}
+
+.cartHeader {
+  padding: 1.6rem 0;
+}
+
+.goToCart__button {
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.goToCart__wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.cent {
+  font-size: 8px;
+  text-decoration: underline;
+  vertical-align: top;
+}
+
+.priceSummary__description {
+  padding-top: 5.7rem;
+  text-align: center;
+}
+
+.priceSummaryButton__wrapper {
+  height: 229px;
+}

@@ -1,0 +1,6 @@
+.products__wrapper {
+  width: 250px;
+  margin: 0 auto 1rem auto;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
