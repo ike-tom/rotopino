@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider } from '@mui/material';
+import CartProvider from './utils/CartProvider';
+import theme from './themes/theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <CartProvider>
+        <App />
+      </CartProvider>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,90 @@
+.product__wrapper {
+  display: flex;
+  width: 282px;
+  height: 394px;
+  flex-direction: column;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.productName__headerWrapper {
+  height: 50px;
+}
+
+.productName__header {
+  text-align: center;
+}
+
+.productName__descriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+  width: 50%;
+}
+
+.productDetails__Wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.productPrice__Wrapper {
+  flex-basis: 50%;
+  text-align: center;
+  height: 100px;
+}
+
+.productQuantityButtons__Wrapper {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.quantityButton {
+  width: 33%;
+  min-width: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid black;
+  flex-grow: 0;
+  box-sizing: border-box;
+}
+
+.addButton {
+  font-weight: 700;
+  text-transform: none;
+}
+
+.addButton__wrapper {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  flex-basis: 50%;
+}
+
+.quantityInfo {
+  width: 33%;
+  text-align: center;
+}
+
+.productQuantityAddButtons__Wrapper {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.cent {
+  font-size: 10px;
+  text-decoration: underline;
+  vertical-align: top;
+  font-weight: 700;
+}
